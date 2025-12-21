@@ -1,0 +1,24 @@
+- Java works in a way that differs from C or C++.
+- Java app creation process:
+(1) write some Java code in a text editor.
+(2) code has to be transformed to another format, which can be executed by your computer. (compiler)
+(3) file produced by a compiler is often called a binary file or an executable file.
+(4) Once the compiler produced the binary file that you need, you can execute this binary file,
+that will run your program.
+- As of now, downloading "Java" means downloading the Java Development Kit, also known as the JDK. The JDK contains
+many tools and among them are the ones you will be using to compile and run a Java application.
+It is officially distributed by the OpenJDK project and by Oracle.
+- The JRE stands for Java Runtime Environment. It is a subset of the JDK that is not distributed by the OpenJDK
+or Oracle anymore. It only contained the tools needed to run a Java application.
+You cannot compile your code with the tools provided in the JRE.
+
+- Objects, Classes, Interfaces, Packages, and Inheritance
+(1) object is a software bundle of related state and behavior.
+(2)  An object stores its state in fields (variables in some programming languages)
+and exposes its behavior through methods (functions in some programming languages).
+(3) Hiding internal state and requiring all interaction to be performed through an object's methods is known
+as data encapsulation — a fundamental principle of object-oriented programming.
+(4) A class is the blueprint from which individual objects are created.
+(5) Inheritance allows classes to inherit commonly used state and behavior from other classes.
+(6) In its most common form, an interface is a group of related methods with empty bodies.
+(7) A package is a namespace that organizes a set of related classes and interfaces.
